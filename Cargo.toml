@@ -1,0 +1,20 @@
+[package]
+name = "rp"
+version = "0.1.0"
+authors = ["tbrand <taichiro0709@gmail.com>"]
+
+[dependencies]
+clap = "*"
+log = "*"
+env_logger = "*"
+rand = "*"
+failure = "*"
+rp-core = { path = "rp-core" }
+
+[workspace]
+members = [
+  "rp-core",
+  "rp-cli",
+  "rp-copier",
+  "rp-error",
+]

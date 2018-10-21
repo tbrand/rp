@@ -1,0 +1,14 @@
+[package]
+name = "rp-copier"
+version = "0.1.0"
+authors = ["tbrand <taichiro0709@gmail.com>"]
+
+[dependencies]
+rp-error = { path = "../rp-error" }
+log = "*"
+rayon = "*"
+futures = "*"
+futures-fs = "*"
+num_cpus = "*"
+actix = "*"
+lazy_static = "*"

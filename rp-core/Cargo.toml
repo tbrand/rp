@@ -1,0 +1,9 @@
+[package]
+name = "rp-core"
+version = "0.1.0"
+authors = ["tbrand <taichiro0709@gmail.com>"]
+
+[dependencies]
+rp-cli = { path = "../rp-cli" }
+rp-copier = { path = "../rp-copier" }
+rp-error = { path = "../rp-error" }
